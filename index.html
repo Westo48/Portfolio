@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weston Southers</title>
     <script src="https://kit.fontawesome.com/64c7dc4e9b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
-    <!--<script src="/darkmodetoggle.js"></script>-->
+    <link rel="stylesheet" href="/Portfolio/style.css">
+    <script src="/Portfolio/darkmodetoggle.js"></script>
 </head>
 
-<body>
+<body class="">
     <div class="container body-content">
 
         <div class="row text-center col-12">
@@ -20,22 +21,6 @@
                 <h1 class="display-4 col-12 col-lg-12">Weston Southers</h1>
                 <h1 class="display-4 text-muted col-12 col-lg-12">Software Developer</h1>
             </div>
-            <script>
-                $(function () {
-                    $("#toggle").click(function () {
-                        const isChecked = $("#switch").is(":checked");
-                        if (isChecked) {
-                            $("body").removeClass("night");
-                            $("nav").removeClass("bg-primary");
-                            $("nav").addClass("bg-dark");
-                        } else {
-                            $("body").addClass("night");
-                            $("nav").removeClass("bg-dark");
-                            $("nav").addClass("bg-primary");
-                        }
-                    });
-                });
-            </script>
             <div class="col-12 col-lg-2 mb-4">
                 <div class="switch-wrapper justify-content-center">
                     <i class="fa fa-sun-o"></i>
