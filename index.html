@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weston Southers</title>
+    <script src="https://kit.fontawesome.com/64c7dc4e9b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <!--<script src="/darkmodetoggle.js"></script>-->
+</head>
+
+<body>
+    <div class="container body-content">
+
+        <div class="row text-center col-12">
+            <div class="col-12 col-lg-5 mb-4">
+                <h1 class="display-4 col-12 col-lg-12">Weston Southers</h1>
+                <h1 class="display-4 text-muted col-12 col-lg-12">Software Developer</h1>
+            </div>
+            <script>
+                $(function () {
+                    $("#toggle").click(function () {
+                        const isChecked = $("#switch").is(":checked");
+                        if (isChecked) {
+                            $("body").removeClass("night");
+                            $("nav").removeClass("bg-primary");
+                            $("nav").addClass("bg-dark");
+                        } else {
+                            $("body").addClass("night");
+                            $("nav").removeClass("bg-dark");
+                            $("nav").addClass("bg-primary");
+                        }
+                    });
+                });
+            </script>
+            <div class="col-12 col-lg-2 mb-4">
+                <div class="switch-wrapper justify-content-center">
+                    <i class="fa fa-sun-o"></i>
+                    <div class="toggle-wrapper">
+                        <input id="switch" type="checkbox" />
+                        <label for="switch" id="toggle">Toggle</label>
+                    </div>
+                    <i class="fa fa-moon-o"></i>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 mb-4 lead">
+                <h1>Contact Me</h1>
+                <ul class="list-unstyled">
+                    <li class="mt-3"><i class="far fa-envelope fa-lg" style="color: #007bff;"></i> - <a href="mailto:westonsouthers19@gmail.com" class="badge badge-primary">westonsouthers19@gmail.com</a></li>
+                    <li class="mt-3"><i class="fas fa-mobile-alt fa-lg" style="color: #007bff;"></i> - <a href="tel:972-834-2094" class="badge badge-primary">(972) 834-2094</a></li>
+                    <li class="mt-3"><i class="fab fa-github fa-lg" style="color: #007bff;"></i> - <a href="https://github.com/Westo48" target="_blank" class="badge badge-primary">github.com/Westo48</a></li>
+                    <li class="mt-3"><i class="fab fa-codepen fa-lg" style="color: #007bff;"></i> - <a href="https://codepen.io/westo48" target="_blank" class="badge badge-primary">codepen.io/westo48</a></li>
+                    <!--<li class="mt-3">homepage - //update when website is made</li>-->
+                </ul>
+            </div>
+        </div>
+
+        <div class="row text-center col-12 mb-4">
+            <h1 class="col-12">About Me</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus eleifend erat, at egestas metus imperdiet nec. Ut dictum orci a tincidunt lacinia. In hac habitasse platea dictumst. In interdum interdum sem malesuada hendrerit. Sed ut pretium nulla. Praesent elementum semper odio et iaculis. Mauris nec orci ex. Morbi fermentum.</p>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12 col-lg-6">
+                <div class="mb-4">
+                    <h1 class="text-center">Professional Skills</h1>
+                    <ul class="list-unstyled lead">
+                        <li>- Enjoys challenging obstacles and strives to broaden learning and skills</li>
+                        <li>- Well versed in adapting to new and daunting environments</li>
+                        <li>- Highly motivated and hard-working with a strong sense of urgency</li>
+                        <li>- Dependable, responsible, and meets professional deadlines</li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h1 class="text-center">Education</h1>
+                    <ul class="list-unstyled lead">
+                        <li>
+                            <h3>Dallas Baptist University</h3>
+                        </li>
+                        <li>- B.S. with a major in Mathematics and a minor in Finance</li>
+                        <li>- Graduated August 2017</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+                <h1 class="text-center">Technical Knowledge</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <h3>Languages</h3>
+                        <ul class="list-unstyled lead">
+                            <li>C#</li>
+                            <li>XAML</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h3>Frameworks</h3>
+                        <ul class="list-unstyled lead">
+                            <li>ASP.NET Core</li>
+                            <li>Razor</li>
+                            <li>MVC</li>
+                            <li>WPF</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--
+                technical skills
+                    - Languages
+                        - C#
+                        - XAML
+                        - HTML
+                        - CSS
+                        - Javascript
+                    - Frameworks
+                        - ASP.NET core
+                        - Razor
+                        - MVC
+                        - WPF
+            
+                professional skills
+                    - Enjoys challenging obstacles and strives to broaden learning and skills
+                    - Well versed in adapting to new and daunting environments
+                    - Highly motivated and hard-working with a strong sense of urgency
+                    - Dependable, responsible, and meets professional deadlines
+            
+            
+                education
+                - Dallas Baptist University - Graduated August 2017
+                    - B.S. with a major in Mathematics and a minor in Finance
+                // not going to include high school info
+            
+                professional experience
+                - Accounting Specialist - GuideStone Financial Resources - September 2017 - Present
+                    - Accounting specialist for income and dispursements within F&A
+                    - Assists in journaling incoming and outgoing monies to various institutions, accounts, and participants
+                    - Revamped various systems to support automation in day to day activities
+            
+                - Mathematics Tutor - Dallas Baptist University
+                    - Tutored collegiate students in many areas including but limited to: statistics, algebra, calculus, accounting, and business math
+                    - Taught students with learning disabilities
+                    - Learned to relate to students and adapt to various learning styles
+            
+                - Children's Minister's Intern - Matthew Road Baptist Church
+                    - Part of the budgeting committe who helped improve the budget through data analysis
+                    - Leader in several ministries helping serve in areas such as camp leadership and event organization
+                    - Created and taught lesson plans to children and high school students for services and game master for AWANAS
+            
+                - Budget Estimator - Panterra Construction - February 2014 - October 2014
+                    - Part of the estimating team that put together budgets for construction projects
+                    - Called contractors for bid collections and negotiations
+                    - Gave bids to companies for commercial construction projects
+            
+                // probs shouldn't include this
+                - Mechanical Engineering Co-op - Stemco
+                    - Aided in designing safer machines for assembly lines using a computer-aided design program (CAD)
+                    - Part of the engineering team who improved the daily processes of the company
+            
+                // maybe include lundy services
+            
+                projects
+                - Calculator
+                    - technologies used
+                        - WPF
+                        - C#
+                        - XAML
+                - Book Database
+                    - technologies used
+                        - ASP.NET core
+                        - MVC // possible
+                        - Bootstrap 4
+                        - HTML
+                        - CSS
+                        - Javascript
+                        -SQL
+                        - C#
+                - Clash of Clans Reference Site
+                    - technologies used
+                        - ASP.NET MVC
+                        - Bootstrap 4
+                        - HTML
+                        - CSS
+                        - Javascript
+                        - C#
+            
+                 about me
+                    - lorem
+            
+            
+                contact me
+                    - email - westonsouthers19@gmail.com
+                    - phone - (972) 834-2094
+                    - github - github.com/Westo48
+                    - codepen -
+                    - homepage - //update when website is made
+            -->
+        <!--
+                tel: – place a phone call
+                mailto: – open an email app
+                callto: open Skype
+                sms: – send a text message
+                fax: – send a fax
+            -->
+
+
+        <hr />
+        <footer>
+            <p>2019 - Weston's Portfolio</p>
+        </footer>
+    </div>

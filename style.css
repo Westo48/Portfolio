@@ -1,0 +1,103 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+  padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+  width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+  margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none;
+  }
+}
+
+.bg-intro {
+  background-color: #41a4f5;
+}
+
+body {
+  background-color: #fff;
+}
+
+.night {
+  background-color: #333;
+  color: #fff;
+}
+
+.night.fa {
+  color: #fff;
+}
+
+.switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-wrapper {
+  margin: 10px;
+}
+
+#switch {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+#switch:checked + label {
+  background: #41a4f5;
+  /*background: #007bff;*/
+}
+
+#switch:checked + label:after {
+  left: calc(100% - 3px);
+  transform: translateX(-100%);
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 55px;
+  height: 30px;
+  /*background: #343a40;*/
+  background: #6f6f6f;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 100%;
+  transition: 0.25s;
+}
